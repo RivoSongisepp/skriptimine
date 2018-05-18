@@ -1,0 +1,5 @@
+#!/bin/bash
+# masina tooaeg
+date +"%T"
+uptime -p
+#

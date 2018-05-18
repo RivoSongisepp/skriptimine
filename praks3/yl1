@@ -1,0 +1,6 @@
+#!/bin/bash
+# kuupaev ja kell
+date +"%A, %B %d, %Y"
+date +"%H:%M"
+cal
+#
