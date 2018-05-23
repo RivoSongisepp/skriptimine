@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+echo "Mitu reisijat on grupis"
+read arv
+echo "Mitu kohta on bussis"
+read koht
+
+bussis=`expr $arv`
+
+bussist=`expr $arv - $koht`
+
+echo "Bussis on $bussis reisijaid ning bussist jai maha $bussist reisijaid"
+#
